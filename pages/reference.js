@@ -1,17 +1,16 @@
-
 import Meta from "../components/Meta";
 import Header from "../components/Header";
-import List from "../components/List";
 import Footer from "../components/Footer";
+import ReferenceList from "../components/ReferenceList";
 
-export default function Home() {
+export default function Reference() {
   return (
     <div>
       <Meta title="Soccer Match" />
 
       <Header />
 
-      <List />
+      <ReferenceList />
 
       <Footer />
     </div>
