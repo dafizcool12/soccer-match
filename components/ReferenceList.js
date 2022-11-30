@@ -1,7 +1,6 @@
-import Link from "next/link" 
+import Link from "next/link";
 
 export default function ReferenceList() {
-
   return (
     <section class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto">
@@ -24,11 +23,15 @@ export default function ReferenceList() {
               RapidAPI
             </h2>
             <p class="leading-relaxed text-base">
-              RapidAPI is the world's largest API Marketplace. 
-              Developers use Rapid API to discover and connect to thousands of APIs. U
-              sing RapidAPI, developers can search and test the APIs, subscribe, and connect to the APIs
+              RapidAPI is the world's largest API Marketplace. Developers use
+              Rapid API to discover and connect to thousands of APIs. U sing
+              RapidAPI, developers can search and test the APIs, subscribe, and
+              connect to the APIs
             </p>
-            <Link href="https://rapidapi.com" class="mt-3 text-indigo-500 inline-flex items-center">
+            <Link
+              href="https://rapidapi.com"
+              class="mt-3 text-indigo-500 inline-flex items-center"
+            >
               Learn More
               <svg
                 fill="none"
@@ -47,14 +50,17 @@ export default function ReferenceList() {
         <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
-              The Catalyzer
+              Next.js
             </h2>
             <p class="leading-relaxed text-base">
-            Next.js is an open-source web development framework created by Vercel enabling 
-            React-based web applications with server-side rendering and generating static websites.
-            Where traditional React apps can only render their content in the client-side browser, 
-            Next.js extends this functionality to include applications rendered on the server-side.
-            The copyright and trademarks for Next.js are owned by Vercel, which also maintains and leads its open-source development
+              Next.js is an open-source web development framework created by
+              Vercel enabling React-based web applications with server-side
+              rendering and generating static websites. Where traditional React
+              apps can only render their content in the client-side browser,
+              Next.js extends this functionality to include applications
+              rendered on the server-side. The copyright and trademarks for
+              Next.js are owned by Vercel, which also maintains and leads its
+              open-source development
             </p>
             <a class="mt-3 text-indigo-500 inline-flex items-center">
               Learn More
@@ -104,11 +110,15 @@ export default function ReferenceList() {
           </div>
           <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
-              The 400 Blows
+              Vercel
             </h2>
             <p class="leading-relaxed text-base">
-              Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-              taxidermy. Gastropub indxgo juice poutine.
+              Vercel is the platform for frontend developers, providing the
+              speed and reliability innovators need to create at the moment of
+              inspiration. Vercel enable teams to iterate quickly and develop,
+              preview, and ship delightful user experiences. Vercel has
+              zero-configuration support for 35+ frontend frameworks and
+              integrates with headless content, commerce, or database of choice.
             </p>
             <a class="mt-3 text-indigo-500 inline-flex items-center">
               Learn More

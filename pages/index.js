@@ -1,8 +1,8 @@
-
 import Meta from "../components/Meta";
 import Header from "../components/Header";
-import List from "../components/List";
+import NewsList from "../components/NewsList";
 import Footer from "../components/Footer";
+import NextJsCarousel from "../components/NextJsCarousel";
 
 export default function Home() {
   return (
@@ -11,7 +11,9 @@ export default function Home() {
 
       <Header />
 
-      <List />
+      <NextJsCarousel />
+
+      <NewsList />
 
       <Footer />
     </div>

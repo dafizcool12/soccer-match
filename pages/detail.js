@@ -36,8 +36,9 @@ export default function Home() {
             </h1>
             <p class="mb-8 leading-relaxed">{data ? data.competition : ""}</p>
             <div class="flex justify-center">
-              <Link href={data ? data.matchviewUrl :""}
-                class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              <Link
+                href={data ? data.matchviewUrl : ""}
+                class="inline-flex text-white bg-gray-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
                 control-id="ControlID-79"
               >
                 Watch Videos
