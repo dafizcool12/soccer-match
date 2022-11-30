@@ -15,7 +15,7 @@ export default function List() {
     setTimeout(() => {
       fetch("https://football98.p.rapidapi.com/premierleague/news", options)
         .then((response) => response.json())
-        .then((response) => console.log(response))
+        .then((response) => setData(response))
         .catch((err) => console.error(err));
     }, 250);
   });
