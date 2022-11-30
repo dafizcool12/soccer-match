@@ -4,7 +4,7 @@ import NewsCard from "./NewsCard";
 const options = {
   method: "GET",
   headers: {
-    "X-RapidAPI-Key": "8a3458871fmshe914658c3b32124p108e70jsnbb8a8fa403ae",
+    "X-RapidAPI-Key": "4c99382be4mshc7b7622efa3f01ap122ba1jsna54b409e8d7c",
     "X-RapidAPI-Host": "football98.p.rapidapi.com",
   },
 };
@@ -12,10 +12,12 @@ export default function List() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("https://football98.p.rapidapi.com/premierleague/news", options)
-      .then((response) => response.json())
-      .then((response) => console.log(response))
-      .catch((err) => console.error(err));
+    setTimeout(() => {
+      fetch("https://football98.p.rapidapi.com/premierleague/news", options)
+        .then((response) => response.json())
+        .then((response) => console.log(response))
+        .catch((err) => console.error(err));
+    }, 250);
   });
 
   return (
